@@ -1,0 +1,3 @@
+uname
+pwd
+exit

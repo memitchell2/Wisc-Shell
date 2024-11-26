@@ -1,0 +1,8 @@
+alias ll1 echo a
+alias ll2 echo b
+
+ll1
+ll2
+
+alias
+exit

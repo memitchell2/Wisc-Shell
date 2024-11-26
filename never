@@ -1,0 +1,11 @@
+Script started on 2024-06-27 20:32:08-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="-1" LINES="-1"]
+export MYENVVARNAME=somevalue
+echo $MYENVVARNAME > a.txt
+unset MYENVVARNAME
+
+cat a.txt
+somevalue
+
+exit
+
+Script done on 2024-06-27 20:32:08-05:00 [COMMAND_EXIT_CODE="0"]

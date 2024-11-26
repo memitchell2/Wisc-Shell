@@ -1,0 +1,7 @@
+export MYENVVARNAME=somevalue
+echo $MYENVVARNAME > a.txt
+unset MYENVVARNAME
+
+cat a.txt
+
+exit
